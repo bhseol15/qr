@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SmartQR" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/color_accent</item>
+        <item name="colorSecondaryVariant">@color/color_accent</item>
+        <item name="colorOnSecondary">@color/text_white</item>
+        <!-- Status bar and Navigation bar color -->
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        
+        <!-- Enable true edge-to-edge / fullscreen display cutout mode on Android 9+ -->
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="p">shortEdges</item>
+    </style>
+</resources>
